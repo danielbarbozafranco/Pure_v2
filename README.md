@@ -22,3 +22,20 @@ After successful compilation, the SD image will be located in buildroot/output/i
 To organize your own rsync update server, you need to replace the /opt/update file with your own script.
 
 
+==========================
+Notes from https://puredsd.ru/
+
+1. Download Pure.gz
+2. Use Balena Etcher to write this file to SD (the gz archive does not need to be unpacked)
+3. Insert SD to BBB.
+4. Press and hold S2.
+5. Connect power to BeagleBone.
+6. When all four LEDs come on, release S2.
+7. After a few seconds, Linux will start.
+8. Connect to BBB via any webbrowser and push buttom "Copy SD to eMMC". When copying is completed, the BBB will automatically turn off.
+
+The firmware provides automatic assignment of IP addresses using DHCP.
+You can find the new IP address on your home router or run the advanced-ip-scanner program.
+BeagleBone will be listed as Texas Instruments manufacturer.
+Or just open http://pure.local in your web browser.
+
