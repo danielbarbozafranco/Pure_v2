@@ -25,7 +25,7 @@ To organize your own rsync update server, you need to replace the /opt/update fi
 
 ### Notes from https://puredsd.ru/
 
-1. Download [Pure.gz](https://puredsd.ru/Pure.gz)
+1. Download [Pure.gz](https://puredsd.ru/Pure.gz) or from the release page from this github.
 2. Use [Balena Etcher](https://www.balena.io/etcher) to write this file to SD (the gz archive does not need to be unpacked)
 3. Insert SD to BBB.
 4. Press and hold S2.
