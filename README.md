@@ -21,6 +21,7 @@ After successful compilation, the SD image will be located in buildroot/output/i
 
 To organize your own rsync update server, you need to replace the /opt/update file with your own script.
 
+---
 
 ### Notes from https://puredsd.ru/
 
