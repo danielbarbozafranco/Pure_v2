@@ -22,11 +22,10 @@ After successful compilation, the SD image will be located in buildroot/output/i
 To organize your own rsync update server, you need to replace the /opt/update file with your own script.
 
 
-==========================
-Notes from https://puredsd.ru/
+### Notes from https://puredsd.ru/
 
-1. Download Pure.gz
-2. Use Balena Etcher to write this file to SD (the gz archive does not need to be unpacked)
+1. Download [Pure.gz](https://puredsd.ru/Pure.gz)
+2. Use [Balena Etcher](https://www.balena.io/etcher) to write this file to SD (the gz archive does not need to be unpacked)
 3. Insert SD to BBB.
 4. Press and hold S2.
 5. Connect power to BeagleBone.
